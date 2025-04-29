@@ -70,7 +70,7 @@ def main():
     print(f"Shortest distances from node {source_node}:")
     for node in range(num_nodes):
         if distances[node] == float('inf'):
-            print(f"Node {node}: infinity")
+            print(f"Node {node}: INF")
         else:
             print(f"Node {node}: {int(distances[node])}")
 
